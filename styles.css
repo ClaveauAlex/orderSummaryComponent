@@ -4,7 +4,6 @@
   --neutral-very-pale-blue: hsl(225, 100%, 98%);
   --neutral-desaturated-blue: hsl(224, 23%, 55%);
   --neutral-dark-blue: hsl(223, 47%, 23%);
-  --body-fontsize: 16px;
 }
 
 /* Reset */
@@ -17,7 +16,7 @@
 }
 
 html{
-  font-size: var(--body-fontsize);
+  font-size: 16px;
 }
 
 body {
@@ -25,3 +24,45 @@ body {
 }
 
 /* Challenge */
+
+body{
+  font-family: 'Red Hat Display',sans-serif;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #E0E8FF;
+}
+
+body::after{
+  content: "";
+  background: url("images/pattern-background-desktop.svg") top/contain no-repeat;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.illustrationHero{
+  border-radius: 15px 15px 0 0;
+}
+
+.orderContainer{
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Position the div in center*/
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.orderSummary{
+  background-color: #FFF;
+  border-radius: 0 0 15px 15px;
+}
