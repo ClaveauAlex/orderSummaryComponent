@@ -43,6 +43,14 @@ body::after{
   position: absolute;
 }
 
+h2{
+  font-weight: 900;
+}
+
+p{
+  font-weight: 500;
+}
+
 .illustrationHero{
   border-radius: 15px 15px 0 0;
 }
@@ -124,4 +132,28 @@ body::after{
   color: var(--primary-bright-blue);
   cursor: pointer;
   text-decoration: underline;
+}
+
+.actions{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.primaryButton{
+  background-color: var(--primary-bright-blue);
+  border-radius: 10px;
+  border: unset;
+  color: #FFF;
+  font-weight: 900;
+  padding: 15px 0;
+}
+
+.cancelButton{
+  border: unset;
+  background: unset;
+  color: gray;
+  font-weight: 700;
+  margin-top: 25px;
 }
