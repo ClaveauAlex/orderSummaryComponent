@@ -66,4 +66,25 @@ body::after{
   background-color: #FFF;
   border-radius: 0 0 15px 15px;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerOrder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.headerOrder .title{
+  font-size: 2em;
+  color: var(--neutral-dark-blue);
+}
+
+.headerOrder .description{
+  font-size: 1em;
+  padding: 20px 0;
+  color: gray;
 }
