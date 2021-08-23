@@ -88,3 +88,40 @@ body::after{
   padding: 20px 0;
   color: gray;
 }
+
+.annualPlan{
+  background-color: var(--neutral-very-pale-blue);
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionTitle .informations{
+  margin-left: 20px;
+}
+
+.sectionTitle .informations .title{
+  font-size: 1em;
+  color: var(--neutral-dark-blue);
+}
+
+.sectionTitle .informations .price{
+  margin-top: 5px;
+  font-size: 1em;
+  color: gray;
+}
+
+.sectionAction{
+  color: var(--primary-bright-blue);
+  cursor: pointer;
+  text-decoration: underline;
+}
