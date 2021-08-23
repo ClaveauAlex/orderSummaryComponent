@@ -65,4 +65,5 @@ body::after{
 .orderSummary{
   background-color: #FFF;
   border-radius: 0 0 15px 15px;
+  padding: 50px;
 }
