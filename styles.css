@@ -73,6 +73,7 @@ p{
 .orderSummary{
   background-color: #FFF;
   border-radius: 0 0 15px 15px;
+  box-shadow: 0 30px 70px rgba(114, 128, 167, 0.2);
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -144,6 +145,7 @@ p{
 .primaryButton{
   background-color: var(--primary-bright-blue);
   border-radius: 10px;
+  box-shadow: 0 30px 60px rgba(114, 128, 167, 0.3);
   border: unset;
   color: #FFF;
   font-weight: 900;
